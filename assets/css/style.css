@@ -1,0 +1,48 @@
+#header{
+    background-color: darkslategray;
+    text-align: center;
+    padding: 2%;
+}
+h1{
+    font-weight: 700;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: beige;
+}
+
+h2{
+    text-align: center;
+    color: darkslategray;
+    font-weight: 700;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+.card{
+    margin: 2% 10% 2% 10%;
+}
+.card-header{
+    background-color: darkslategray;
+    color: white;
+    font-weight: 700;
+}
+.card-body{
+    padding: 2%;
+}
+
+thead {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 2%;
+    color: white;
+
+}
+
+#submit {
+    background-color: darkslategray;
+    border: none;
+}
