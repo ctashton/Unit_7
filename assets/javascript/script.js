@@ -47,6 +47,7 @@ $("#submit").on("click", function(event) {
 
 });
 
+
 database.ref().on("child_added", function(childSnapshot){
     console.log(childSnapshot.val())
     var name = childSnapshot.val().name;
@@ -82,4 +83,8 @@ database.ref().on("child_added", function(childSnapshot){
 
     $("tbody").append(newRow);
     
-});
+})
+
+setInterval(function() {
+    window.location.reload();
+  }, 60000);
